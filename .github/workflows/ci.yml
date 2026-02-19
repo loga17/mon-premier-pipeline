@@ -18,12 +18,12 @@ jobs:
     steps:
       # ÉTAPE 1 : Récupérer le code
       - name: 📥 Récupérer le code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         # C'est comme : Aller chercher le dossier sur GitHub
       
       # ÉTAPE 2 : Installer Node.js
       - name: 🔧 Installer Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: '18'
         # C'est comme : Installer le moteur qui fait tourner JavaScript
@@ -36,7 +36,7 @@ jobs:
       # ÉTAPE 4 : Sauvegarder les résultats
       - name: 📊 Sauvegarder les résultats
         if: always()  # Même si les tests échouent
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: test-results
           path: test-results.txt
