@@ -1,0 +1,20 @@
+🧪 DÉBUT DES TESTS
+==================
+
+📝 Test 1 : addition(2, 3)
+   ✅ RÉUSSI : 2 + 3 = 5
+
+📝 Test 2 : soustraction(10, 4)
+   ✅ RÉUSSI : 10 - 4 = 6
+
+📝 Test 3 : multiplication(3, 4)
+   ✅ RÉUSSI : 3 × 4 = 12
+
+📝 Test 4 : addition(5, 7)
+   ✅ RÉUSSI : 5 + 7 = 12
+
+==================
+📊 RÉSULTAT : 4/4 tests réussis
+
+🎉 FÉLICITATIONS ! Tous les tests sont verts !
+   Le pipeline va devenir VERT ✅
