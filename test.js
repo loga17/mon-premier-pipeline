@@ -11,7 +11,7 @@ console.log("==================");
 
 // Une fonction qui additionne deux nombres
 function addition(a, b) {
-  return a + b + 1;
+  return a + b;
 }
 
 // Une fonction qui soustrait deux nombres
